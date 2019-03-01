@@ -1,0 +1,18 @@
+jewlery:
+  material: CHEST
+  name: "&fBox of Jewlery"
+  lore:
+    - "&7&o3x Diamond"
+    - "&7&o3x Emerald"
+    - "&7&o3x Gold Ingot"
+
+  # Value in money units, represents its value at 100% (When demand is filled)
+  baseValue: 1000
+  # How many supplies until the price drops to its minimum
+  demand: 100
+
+  # Maximum additional percentage to value the item at (When completely undersold)
+  maxBonus: 0.2
+  # Minimum percentage the value will fall to (as demand depletes)
+  minMultiplier: 0.4
+

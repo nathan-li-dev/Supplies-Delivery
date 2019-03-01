@@ -1,0 +1,35 @@
+reset_delay: 72000
+
+gui:
+  name: "&8Supplies Delivery"
+  placeholder:
+    name: "&8"
+    lore: []
+  next:
+    name: "&aNext"
+    material: "BIRCH_BUTTON"
+    lore: []
+  back:
+    name: "&aBack"
+    material: "BIRCH_BUTTON"
+    lore: []
+
+messages:
+  sold: "&3❖ &fTrade &b| &7Sold {AMOUNT}, earning ${VALUE}."
+  no_permission: "&3❖ &fTrade &b| &7You don't have permission."
+  reloaded: "&3❖ &fTrade &b| &7Plugin reloaded."
+  reset: "&3❖ &fTrade &b| &7Demand forcefully reset."
+  splash:
+    - "&8&m                                                                                &8&m"
+    - ""
+    - "&3 &lSupplies Delivery"
+    - "&7&o Sell things in a way that's cooler than ice."
+    - "&7&o I thought it was cool, at least..."
+    - ""
+    - " &3Commands: &7(/supplies ... )"
+    - ""
+    - ' &8* &bget'
+    - ' &8* &breset'
+    - ' &8* &breload'
+    - ""
+    - "&8&m                                                                                &8&m"

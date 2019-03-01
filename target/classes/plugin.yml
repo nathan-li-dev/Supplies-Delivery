@@ -1,0 +1,15 @@
+name: SuppliesDelivery
+description: Sell more things
+version: 1.0
+api-version: 1.13
+authors: [Inavir]
+depend: [SmartInvs, Vault]
+softdepend: [Citizens]
+main: com.monologica.suppliesDelivery.SuppliesDeliveryPlugin
+commands:
+  supplies:
+    aliases:
+      - sd
+      - delivery
+      - suppliesdelivery
+      - supplydelivery
